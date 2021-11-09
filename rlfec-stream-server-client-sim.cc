@@ -129,7 +129,7 @@ main (int argc, char *argv[])
     }
   Config::SetDefault ("ns3::RlFecStreamServerApp::TrainingMode", BooleanValue (training));
 
-  // Jitter start
+  // random pe if training
   double min=0.0;
   double max=10.0;
   Ptr<UniformRandomVariable> x = CreateObject<UniformRandomVariable> ();
