@@ -1,6 +1,6 @@
 # Process RL-FEC Logs and Reproduce Plots
 
-This folder contains `awk` scripts for procesing RL-FEC's ns-3 logs obtained by redirecting `rlfec-stream-server-client-sim`'s output, and also contains python scripts for plotting the processed data, which mostly use `numpy` and `matplotlib`. Some example logs are also provided.
+This folder contains `awk` scripts for procesing RL-FEC's ns-3 logs obtained by redirecting `rlfec-stream-server-client-sim`'s output. The folder also contains python scripts and some example logs for reproducing the figures in the author's IEEE Communications Letters (CL2021-2675).
 
 1. `process_scudp_data.sh` is the main `awk` script for processing logs to obtain performance metics such as goodput, FEC code rate, delivery delay, etc. There is no need to directly call it. It is called from within python scripts using `subprocess.run()`.
 

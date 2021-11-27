@@ -6,7 +6,7 @@ The repository already contains a trained agent (table1lambda0.000000) for out-o
 
 The work has been submitted to _IEEE Communications Letters_ for possible publication.
 
-> F. Zhang, Y. Li*, J. Wang, T. Q. Quek, "Learning Based FEC for Non-Terrestrial Networks with Delayed Feedback", _IEEE Communications Letters_, **under review**.
+> F. Zhang, Y. Li*, J. Wang, T. Q. Quek, "Learning Based FEC for Non-Terrestrial Networks with Delayed Feedback", _IEEE Communications Letters_, **Minor Revision**.
 
 ## Installation
 The codes have been tested in ns-3.35. Since the codes contain some unused variables for future work, please note that **ns-3 needs to be configured with `--disable-werror`**. Otherwise, warning of unused variables would result in errors.
