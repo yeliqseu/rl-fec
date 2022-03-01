@@ -4,9 +4,9 @@ This project implements a reinforcement learning (RL) based forward-erasure corr
 
 The repository already contains a trained agent (table1lambda0.000000) for out-of-box simulations. The agent was trained in environments with random packet loss rates between [0%-10%] and one-way propagation delay (300ms, i.e., RTT 600ms).
 
-The work has been accepted by _IEEE Communications Letters_ as the following paper for publication. The scripts and data for reproducing the results in the paper are available in folder `CL2021-2675-data` of this repository.
+The work has been published as the following paper. The scripts and data for reproducing the results in the paper are available in folder `CL2021-2675-data` of this repository.
 
-> F. Zhang, Y. Li*, J. Wang, T. Q. Quek, "Learning Based FEC for Non-Terrestrial Networks with Delayed Feedback", _IEEE Communications Letters_, **Accepted**. (Early Access: https://ieeexplore.ieee.org/document/9628079)
+> F. Zhang, Y. Li, J. Wang and T. Q. S. Quek, "Learning-Based FEC for Non-Terrestrial Networks With Delayed Feedback," in _IEEE Communications Letters_, vol. 26, no. 2, pp. 306-310, Feb. 2022. (https://ieeexplore.ieee.org/document/9628079)
 
 ## Installation
 The codes have been tested in ns-3.35. Since the codes contain some unused variables for future work, please note that **ns-3 needs to be configured with `--disable-werror`**. Otherwise, warning of unused variables would result in errors.
